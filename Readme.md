@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Mikhail Dergauz](https://up.htmlacademy.ru/htmlcss/17/user/397379).
-* Наставник: `Анна Пономарёва`.
+* Наставник: [Анна Пономарёва] (https://htmlacademy.ru/profile/id153610).
 
 ---
 
