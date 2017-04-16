@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Добро Пожаловать в Седону!</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+		  <div class="header-logo">
+            <img src="img/logo.png" alt="Sedona-logo">
+          </div>
+            <a href="#">Информация</a>
+            <a href="#">Фото и видео</a>
+            <a href="#">Карта Сайта</a>
+            <a href="#">Гостиницы</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="options">
+        <form action="search-hotel" method="post" >
+          <div class="option-check">
+            <p class="option-title">Инфраструктура:</p>
+              <input type="checkbox" id="swimmingpool" disabled>
+              <label class="option-label" for="swimmingpool">Бассейн</label>
+              <input type="checkbox" id="parking">
+              <label class="option-label" for="parking">Парковка</label>
+              <input type="checkbox" id="wifi">
+              <label class="option-label" for="wifi">wi-fi</label>
+          </div>
+		  <div class="apartment-options">
+            <p class="apartment-title">Тип жилья:</p>
+              <input type="checkbox" id="hotel" checked>
+              <label class="apartment-option" for="hotel">Гостиница</label>
+              <input type="checkbox" id="motel" checked>
+              <label class="apartment-option" for="motel">Мотель</label>
+              <input type="checkbox" id="apartment" checked disabled>
+              <label class="apartment-option" for="apartment">Апартаменты</label>
+          </div>
+		  <div class="price-option">
+                    <p class="price-title">Стоимость в сутки (Р):</p>
+                    <div class="price-controll">
+                        <div class="price-range">
+                            <input type="text" value="От 0" required>
+                            <input type="text" value="До 30000" required>
+                        </div>
+                        <div class="price-scale">
+                            <div class="min-toggle"></div>
+                            <div class="max-toggle"></div>
+                        </div>
+                    </div>
+            <button class="filter-button" type="submit">Показать</button>
+          </div>
+        </form>
+      </div>
+	  <div class="search-layout">
+        <div class="search-left">
+          <span class="search-result">Найдено: 3</span>
+          <span class="search-sort">Сортировка:</span>
+          <a href="#" class="sort-price search-active">По цене</a>
+          <a href="#" class="sort-type">По типу</a>
+          <a href="#" class="sort-rating">По рейтингу</a>
+        </div>
+        <div class="search-right">
+          <a class="options-up-arrow options-active" href="#"></a>
+          <a class="options-down-arrow" href="#"></a>
+        </div>
+      </div>
+	  <div class="result">
+        <div class="result-layout">
+          <div class="result-left">
+            <figure class="result-img">
+              <img src="amara.jpg" alt="Amara resort & spa">
+            </figure>
+               <div class="result-info">
+                 <a class="info-title" href="#">Amara resort & spa</a>
+                    <div class="result-about">
+                      <div class="result-apartment">
+                        <p class="result-type">Гостиница</p>
+                        <a class="result-more" href="#">Подробнее</a>
+                      </div>
+                      <div class="result-booking">
+                        <p class="result-price">от 3500 Р.</p>
+                        <a class="result-btn" href="#">Забронировать</a>
+                      </div>
+                    </div>
+               </div>
+           </div>
+		   <div class="result-ratings">
+		     <div class="result-stats-score"></div>
+             <p class="result-stars">Рейтинг: 8,5</p>
+		   </div>
+		</div>
+	    <div class="result-layout">
+          <div class="result-left">
+            <figure class="result-img">
+			  <img src="desert.jpg" alt="Desert quail inn">
+            </figure>
+			<div class="result-info">
+			  <a class="info-title" href="#">Desert quail inn</a>
+              <div class="result-about">
+                <div class="result-apartment">
+                  <p class="result-type">Мотель</p>
+                  <a class="result-more" href="#">Подробнее</a>
+				</div>
+				<div class="result-booking">
+                  <p class="result-price">от 2000 Р.</p>
+				  <a class="result-btn" href="#">Забронировать</a>
+				</div>
+              </div>
+            </div>
+		  </div>
+		  <div class="result-ratings">
+            <div class="result-stats-score"></div>
+			<p class="result-stars">Рейтинг: 8,9</p>
+	      </div>
+		</div>
+		<div class="result-layout">
+		  <div class="result-left">
+		    <figure class="result-img">
+		    <img src="villas.jpg" alt="Villas at poco diablo">
+		    </figure>
+		      <div class="result-info">
+              <a class="info-title" href="#">Villas at poco diablo</a>
+			    <div class="result-about">
+			      <div class="result-apartment">
+				  <p class="result-type">Апартаменты</p>
+                  <a class="result-more" href="#">Подробнее</a>
+				  </div>
+				  <div class="result-booking">
+				  <p class="result-price">от 4000 Р.</p>
+				  <a class="result-btn" href="#">Забронировать</a>
+				  </div>
+				</div>
+			  </div>
+		  </div>
+          <div class="result-ratings">
+            <div class="result-stats-score"></div>
+            <p class="result-mark-info">Рейтинг: 9,2</p>
+	      </div>
+		</div>
+	  </div>
+  </main>
+   <footer class="container">
+        <p class="footer-hashtag">#visitsedona</p>
+        <div class="footer-social">
+            <a class="footer-social-twitter" href="#"></a>
+            <a class="footer-social-facebook" href="#"></a>
+            <a class="footer-social-youtube" href="#"></a>
+        </div>
+        <p class="footer-copyright">
+            <span class="copyright-text">Website by</span>
+            <a class="copyright-htmlacademy" href="#"></a>
+        </p>
+    </footer>
+  </body>
+</html>
