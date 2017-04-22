@@ -1,0 +1,35 @@
+h2.about-title {
+  font-size: 21px;
+  line-height:26px;
+  color: black;
+  font-weight: bold;
+  font-family: PTSans;
+  text-transform: uppercase;
+}
+
+.feature-title {
+  font-size: 14px;
+  line-height:26px;
+  color: black;
+  font-weight: normal;
+  font-family: PTSans;
+  text-transform: uppercase;
+}
+
+h3.feature-title {
+  font-size: 21px;
+  line-height:21px;
+  color: white;
+  font-weight: bold;
+  font-family: PTSans;
+  text-transform: uppercase;
+}
+
+ul>li {
+  font-size: 14px;
+  line-height:26px;
+  color: black;
+  font-weight: bold;
+  font-family: PTSans;
+  text-transform: uppercase;
+}
