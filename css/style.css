@@ -1,35 +1,62 @@
-h2.about-title {
+.about-title {
   font-size: 21px;
   line-height:26px;
   color: black;
   font-weight: bold;
-  font-family: PTSans;
+  font-family: "PTSans";
   text-transform: uppercase;
 }
 
-.feature-title {
+.feature-title-black {
   font-size: 14px;
   line-height:26px;
   color: black;
-  font-weight: normal;
-  font-family: PTSans;
+  font-weight: bold;
+  font-family: "PTSans";
   text-transform: uppercase;
 }
 
-h3.feature-title {
-  font-size: 21px;
-  line-height:21px;
+.feature-title-white {
+  font-size: 14px;
+  line-height:26px;
   color: white;
   font-weight: bold;
-  font-family: PTSans;
+  font-family: "PTSans";
   text-transform: uppercase;
 }
 
-ul>li {
-  font-size: 14px;
+.offer-title {
+    font-size: 30px;
+    line-height:24px;
+    color: black;
+    font-weight: bold;
+    font-family: "PTSans";
+    text-transform: uppercase;
+  }
+
+.search-result {
+  font-size: 21px;
   line-height:26px;
   color: black;
   font-weight: bold;
-  font-family: PTSans;
+  font-family: "PTSans";
+  text-transform: uppercase;
+}
+
+.search-sort {
+  font-size: 12px;
+  line-height: 18px;
+  color: black;
+  font-weight: normal;
+  font-family: "PTSans";
+  text-transform: uppercase;
+}
+
+.cards-main-title {
+  font-size: 21px;
+  line-height: 26px;
+  color: black;
+  font-weight: bold;
+  font-family: "PTSans";
   text-transform: uppercase;
 }
