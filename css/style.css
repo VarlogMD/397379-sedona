@@ -1,62 +1,53 @@
-.about-title {
+.sedona h2 {
   font-size: 21px;
-  line-height:26px;
+  line-height: 26px;
   color: black;
   font-weight: bold;
   font-family: "PTSans";
   text-transform: uppercase;
 }
 
-.feature-title-black {
+.sedona p {
   font-size: 14px;
-  line-height:26px;
+  line-height: 26px;
   color: black;
   font-weight: bold;
   font-family: "PTSans";
   text-transform: uppercase;
 }
 
-.feature-title-white {
-  font-size: 14px;
-  line-height:26px;
+.features-blue h3 {
+  font-size: 21px;
+  line-height: 21px;
   color: white;
   font-weight: bold;
   font-family: "PTSans";
   text-transform: uppercase;
 }
 
-.offer-title {
-    font-size: 30px;
-    line-height:24px;
-    color: black;
-    font-weight: bold;
-    font-family: "PTSans";
-    text-transform: uppercase;
-  }
-
-.search-result {
-  font-size: 21px;
-  line-height:26px;
-  color: black;
-  font-weight: bold;
-  font-family: "PTSans";
-  text-transform: uppercase;
-}
-
-.search-sort {
-  font-size: 12px;
-  line-height: 18px;
-  color: black;
+.features-blue p, span {
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
   font-weight: normal;
   font-family: "PTSans";
   text-transform: uppercase;
 }
 
-.cards-main-title {
+.features-gray h3 {
   font-size: 21px;
-  line-height: 26px;
+  line-height: 21px;
   color: black;
   font-weight: bold;
+  font-family: "PTSans";
+  text-transform: uppercase;
+}
+
+.features-gray p, span {
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  font-weight: normal;
   font-family: "PTSans";
   text-transform: uppercase;
 }
